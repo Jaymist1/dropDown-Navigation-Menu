@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(imag/img\ 5.jpg);
+    background-position: contain;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.header .first-Nav .ul-list{
+    
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.header .first-Nav .ul-list li{
+    margin: 8px;
+    padding: 10px;
+}
+.header .first-Nav .ul-list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.active, .header .first-Nav .ul-list li:hover{
+    background-color: #c2c6ce;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.header .first-Nav .bx{
+    margin-right: 8px;
+}
+.section-about{
+    display: none;
+}
+.first-Nav .ul-list li:hover .section-about{
+    display: block;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -9px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 0 0 16px 16px;
+}
+.header .first-Nav .ul-list li:hover .section-about ul li{
+    width: 80px;
+    list-style: none;
+    border-bottom: 1px solid aliceblue;
+    margin-left: 0;
+}
+.header .first-Nav .ul-list li:hover .section-about ul :last-child{
+    border-bottom: none;
+}
+.myservice{
+    display: none;
+}
+.header .first-Nav .ul-list li:hover .myservice{
+    display: block;
+    font-size: 0.6em;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -9px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 0 0 16px 16px;
+
+}
+.header .first-Nav .ul-list li:hover .myservice ul li{
+    width: 120px;
+    list-style: none;
+    border-bottom: 1px solid aliceblue;
+    margin-left: 0;
+}
+.header .first-Nav .ul-list li:hover .myservice ul :last-child{
+    border-bottom: none;
+}
